@@ -14,9 +14,10 @@ development:
   reconnect: false
   database: my-app_development
   pool: 5
-  username: root
-  password:
-  host: localhost
+  username: dimelo
+  password: dimelo
+  host: 127.0.0.1
+  port: 13306
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
